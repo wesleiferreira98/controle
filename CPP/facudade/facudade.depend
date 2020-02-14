@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1573594541 source:/home/weslei/Documentos/CPP/facudade/main.cpp
+	<iostream>
+	"aluno.h"
+
+1573594626 /home/weslei/Documentos/CPP/facudade/aluno.h
+	<bits/stdc++.h>
+
