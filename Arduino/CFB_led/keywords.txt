@@ -1,0 +1,13 @@
+CFB_led KEYWORD1
+
+
+acender KEYWORD2
+
+apagar  KEYWORD2
+
+acender_t KEYWORD2
+
+apagar_t  KEYWORD2
+
+piscar KEYWORD2
+

@@ -1,0 +1,52 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+
+namespace Ui {
+class MainWindow;
+}
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
+
+private slots:
+    void on_actionNovo_triggered();
+
+    void on_actionAbrir_triggered();
+
+    void on_actionSalvar_como_triggered();
+
+    void on_actionSalvar_triggered();
+
+    void on_actionFechar_triggered();
+
+    void on_actionCopiar_triggered();
+
+    void on_actionRecortar_triggered();
+
+    void on_actionColar_triggered();
+
+    void on_actionDesfazer_triggered();
+
+    void on_actionRefazer_triggered();
+
+    void on_actionFonte_triggered();
+
+    void on_actionCor_triggered();
+
+    void on_actionCor_de_Fundo_triggered();
+
+    void on_actionImprimir_triggered();
+
+private:
+    Ui::MainWindow *ui;
+    QString local_arquivo;
+};
+
+#endif // MAINWINDOW_H

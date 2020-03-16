@@ -1,0 +1,5 @@
+#Keyword para a classe
+CFB_ultrassonico KEYWORD1
+
+#keyword para métodos 
+distancia_cm     KEYWORD2
